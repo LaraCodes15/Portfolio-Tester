@@ -37,7 +37,7 @@ function animate(callback) {
 
     for (let i = 0; i < 7; i++) {
         var chatImgSrc = `./img/chat-${i}.png`;
-        animateImage(chatImgSrc, i * 200);
+        animateImage(chatImgSrc, i * 2000);
     }
 }
 
